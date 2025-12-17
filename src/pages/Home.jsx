@@ -61,16 +61,16 @@ function Home() {
         onClick={() => navigate(`/menu/${menu.id}`)}
       >
         <img
-          src={`../images/${menu.image}.jpg`}
-          alt={menu.nom}
-          style={{
-            width: "100%",
-            height: "auto",
-            borderRadius: "10px",
-            objectFit: "cover",
-            marginBottom: "10px",
-          }}
-        />
+  src={`/images/${menu.image}.jpg`}
+  alt={menu.nom}
+  style={{
+    width: "100%",
+    height: "auto",
+    borderRadius: "10px",
+    objectFit: "cover",
+    marginBottom: "10px",
+  }}
+/>
         <h5>{menu.nom}</h5>
         <p>{menu.pieces} pièces</p>
         <p className="fw-bold">{menu.prix}€</p>
